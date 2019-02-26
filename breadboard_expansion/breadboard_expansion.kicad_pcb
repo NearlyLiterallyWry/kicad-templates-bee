@@ -274,9 +274,9 @@
   (gr_line (start 74.93 88.9) (end 102.87 88.9) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 74.93 88.9) (end 74.93 142.24) (layer Edge.Cuts) (width 0.15))
 
-  (via (at 78.74 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0))
-  (via (at 99.06 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815805))
-  (via (at 99.06 132.08) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815807))
-  (via (at 78.74 132.08) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815809))
+  (via (at 78.74 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (status 40000))
+  (via (at 99.06 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815805) (status 40000))
+  (via (at 99.06 132.08) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815807) (status 40000))
+  (via (at 78.74 132.08) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815809) (status 40000))
 
 )
