@@ -270,7 +270,7 @@
   )
 
   (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAD1A83)
-    (at 75.438 91.44)
+    (at 75.184 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -289,7 +289,7 @@
   )
 
   (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAD1AC2)
-    (at 75.438 93.98)
+    (at 75.184 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -308,7 +308,7 @@
   )
 
   (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAD1AF1)
-    (at 85.598 91.44)
+    (at 85.852 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -327,7 +327,7 @@
   )
 
   (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAD1B20)
-    (at 85.598 93.98)
+    (at 85.852 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -346,7 +346,7 @@
   )
 
   (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAD1B59)
-    (at 75.438 137.16)
+    (at 75.184 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -365,7 +365,7 @@
   )
 
   (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CAD1B92)
-    (at 75.946 139.7)
+    (at 75.692 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
     (attr virtual)
@@ -379,8 +379,8 @@
     (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
   )
 
-  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CAD1BC1)
-    (at 86.614 139.7)
+  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CB4F595)
+    (at 86.868 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
     (attr virtual)
@@ -395,7 +395,7 @@
   )
 
   (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAD1BFA)
-    (at 85.598 137.16)
+    (at 85.852 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -413,10 +413,10 @@
     )
   )
 
-  (gr_line (start 87.63 88.9) (end 87.63 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
-  (gr_line (start 74.93 142.24) (end 87.63 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815401))
-  (gr_line (start 74.93 88.9) (end 87.63 88.9) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 74.93 88.9) (end 74.93 142.24) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 88.138 88.9) (end 88.138 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
+  (gr_line (start 74.422 142.24) (end 88.138 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815401))
+  (gr_line (start 74.422 88.9) (end 88.138 88.9) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 74.422 88.9) (end 74.422 142.24) (layer Edge.Cuts) (width 0.15))
 
   (via (at 78.74 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (status 40000))
   (via (at 78.74 132.08) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815809) (status 40000))
