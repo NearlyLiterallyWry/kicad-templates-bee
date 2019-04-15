@@ -269,8 +269,8 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAC52CA)
-    (at 75.438 91.44)
+  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CB4F4E2)
+    (at 75.184 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -289,7 +289,7 @@
   )
 
   (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAC5305)
-    (at 75.438 93.98)
+    (at 75.184 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -308,7 +308,7 @@
   )
 
   (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAC531F)
-    (at 75.438 137.16)
+    (at 75.184 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -327,7 +327,7 @@
   )
 
   (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CAC533E)
-    (at 75.946 139.7)
+    (at 75.692 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
     (attr virtual)
@@ -342,7 +342,7 @@
   )
 
   (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAC5358)
-    (at 100.838 91.44)
+    (at 101.092 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -361,7 +361,7 @@
   )
 
   (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAC5372)
-    (at 100.838 93.98)
+    (at 101.092 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -380,7 +380,7 @@
   )
 
   (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAC538C)
-    (at 100.838 137.16)
+    (at 101.092 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
     (attr virtual)
@@ -399,7 +399,7 @@
   )
 
   (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CAC53A6)
-    (at 101.854 139.7)
+    (at 102.108 139.7)
     (descr "Symbol GND")
     (tags "Symbol GND")
     (attr virtual)
@@ -413,10 +413,10 @@
     (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
   )
 
-  (gr_line (start 102.87 88.9) (end 102.87 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
-  (gr_line (start 74.93 142.24) (end 102.87 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815401))
-  (gr_line (start 74.93 88.9) (end 102.87 88.9) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 74.93 88.9) (end 74.93 142.24) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 103.378 88.9) (end 103.378 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
+  (gr_line (start 74.422 142.24) (end 103.378 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815401))
+  (gr_line (start 74.422 88.9) (end 103.378 88.9) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 74.422 88.9) (end 74.422 142.24) (layer Edge.Cuts) (width 0.15))
 
   (via (at 78.74 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (status 40000))
   (via (at 99.06 99.06) (size 6) (drill 3.2) (layers F.Cu B.Cu) (net 0) (tstamp 5C815805) (status 40000))
