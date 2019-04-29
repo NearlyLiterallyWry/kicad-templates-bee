@@ -427,7 +427,7 @@
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5CC7FAE4)
     (attr virtual)
-    (fp_text reference H9 (at 0 -3.85) (layer F.SilkS)
+    (fp_text reference H9 (at 0 -3.85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.85) (layer F.Fab)
@@ -448,7 +448,7 @@
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5CC7D33F)
     (attr virtual)
-    (fp_text reference H10 (at 0 -3.85) (layer F.SilkS)
+    (fp_text reference H10 (at 0 -3.85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.85) (layer F.Fab)
@@ -469,7 +469,7 @@
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5CC7FAF8)
     (attr virtual)
-    (fp_text reference H11 (at 0 -3.85) (layer F.SilkS)
+    (fp_text reference H11 (at 0 -3.85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.85) (layer F.Fab)
@@ -490,7 +490,7 @@
     (tags "mounting hole 3.2mm m3 iso7380")
     (path /5CC7EE06)
     (attr virtual)
-    (fp_text reference H12 (at 0 -3.85) (layer F.SilkS)
+    (fp_text reference H12 (at 0 -3.85) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 3.85) (layer F.Fab)
