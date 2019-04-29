@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.2+dfsg1-1~bpo9+1)
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.0)-1")
 
   (general
     (thickness 1.6)
@@ -39,8 +39,6 @@
     (zone_clearance 0.508)
     (zone_45_only no)
     (trace_min 0.2)
-    (segment_width 0.2)
-    (edge_width 0.15)
     (via_size 0.8)
     (via_drill 0.4)
     (via_min_size 0.4)
@@ -50,6 +48,8 @@
     (uvias_allowed no)
     (uvia_min_size 0.2)
     (uvia_min_drill 0.1)
+    (edge_width 0.15)
+    (segment_width 0.2)
     (pcb_text_width 0.3)
     (pcb_text_size 1.5 1.5)
     (mod_edge_width 0.15)
@@ -60,7 +60,7 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -269,15 +269,16 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAD1A83)
+  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC7634E)
     (at 75.184 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
+    (path /5CC7235B)
     (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
+    (fp_text reference H1 (at 0 1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Text_U_B+_Silkscreen (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user B+ (at 1.2 0.5) (layer F.SilkS)
@@ -288,53 +289,36 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAD1AC2)
-    (at 75.184 93.98)
-    (descr "Voltage Label Betriebsspannung")
-    (tags "Voltage Label Betriebsspannung")
-    (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Text_U_B-_Silkscreen (at 0 -1.5) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text user B- (at 1.2 0.5) (layer F.SilkS)
-      (effects (font (size 0.7 0.7) (thickness 0.1)))
-    )
-    (fp_text user U (at 0 0) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-  )
-
-  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CAD1AF1)
+  (module Symbol-emt:Text_U_B+_Silkscreen (layer F.Cu) (tedit 5CA4D6E4) (tstamp 5CC76354)
     (at 85.852 91.44)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
+    (path /5CC72351)
     (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
+    (fp_text reference H2 (at 0 1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Text_U_B+_Silkscreen (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user U (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user B+ (at 1.2 0.5) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text user U (at 0 0) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
   )
 
-  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CAD1B20)
-    (at 85.852 93.98)
+  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC7635A)
+    (at 75.184 93.98)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
+    (path /5CC71DFD)
     (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
+    (fp_text reference H3 (at 0 1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Text_U_B-_Silkscreen (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user B- (at 1.2 0.5) (layer F.SilkS)
@@ -345,15 +329,36 @@
     )
   )
 
-  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAD1B59)
+  (module Symbol-emt:Text_U_B-_Silkscreen (layer F.Cu) (tedit 5CA4D70B) (tstamp 5CC76360)
+    (at 85.852 93.98)
+    (descr "Voltage Label Betriebsspannung")
+    (tags "Voltage Label Betriebsspannung")
+    (path /5CC7157C)
+    (attr virtual)
+    (fp_text reference H4 (at 0 1.65) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user U (at 0 0) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user B- (at 1.2 0.5) (layer F.SilkS)
+      (effects (font (size 0.7 0.7) (thickness 0.1)))
+    )
+  )
+
+  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC76366)
     (at 75.184 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
+    (path /5CC72AB3)
     (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
+    (fp_text reference H5 (at 0 1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Text_U_B2_Silkscreen (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user B2 (at 1.1 0.5) (layer F.SilkS)
@@ -364,53 +369,56 @@
     )
   )
 
-  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CAD1B92)
-    (at 75.692 139.7)
-    (descr "Symbol GND")
-    (tags "Symbol GND")
-    (attr virtual)
-    (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Symbol_GND_Silkscreen (at 0 -0.75) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 0 0.8) (end 0 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
-  )
-
-  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CB4F595)
-    (at 86.868 139.7)
-    (descr "Symbol GND")
-    (tags "Symbol GND")
-    (attr virtual)
-    (fp_text reference REF** (at 0 1.6) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Symbol_GND_Silkscreen (at 0 -0.75) (layer F.Fab) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start 0 0.8) (end 0 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
-  )
-
-  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CAD1BFA)
+  (module Symbol-emt:Text_U_B2_Silkscreen (layer F.Cu) (tedit 5CA4D7AD) (tstamp 5CC7636C)
     (at 85.852 137.16)
     (descr "Voltage Label Betriebsspannung")
     (tags "Voltage Label Betriebsspannung")
+    (path /5CC72AA9)
     (attr virtual)
-    (fp_text reference REF** (at 0 1.65) (layer F.SilkS) hide
+    (fp_text reference H6 (at 0 1.65) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Text_U_B2_Silkscreen (at 0 -1.5) (layer F.Fab) hide
+    (fp_text value Silkscreen_Label (at 0 -1.5) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text user U (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user B2 (at 1.1 0.5) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.1)))
     )
-    (fp_text user U (at 0 0) (layer F.SilkS)
+  )
+
+  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC763EA)
+    (at 75.692 139.7)
+    (descr "Symbol GND")
+    (tags "Symbol GND")
+    (path /5CC72A9F)
+    (attr virtual)
+    (fp_text reference H7 (at 0 1.6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
+    (fp_text value Silkscreen_Label (at 0 -0.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start 0 0.8) (end 0 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
+  )
+
+  (module Symbol-emt:Symbol_GND_Silkscreen (layer F.Cu) (tedit 5CA5EB6D) (tstamp 5CC76378)
+    (at 86.868 139.7)
+    (descr "Symbol GND")
+    (tags "Symbol GND")
+    (path /5CC72A95)
+    (attr virtual)
+    (fp_text reference H8 (at 0 1.6) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Silkscreen_Label (at 0 -0.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -0.5 0.8) (end 0.5 0.8) (layer F.SilkS) (width 0.25))
+    (fp_line (start 0 0.8) (end 0 0) (layer F.SilkS) (width 0.15))
   )
 
   (gr_line (start 88.138 88.9) (end 88.138 142.24) (layer Edge.Cuts) (width 0.15) (tstamp 5C815404))
