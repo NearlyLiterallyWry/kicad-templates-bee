@@ -226,4 +226,48 @@ F 3 "~" H 1700 6950 50  0001 C CNN
 	1    1700 6950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 5CC75B4F
+P 3000 7400
+F 0 "H10" H 3100 7449 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3100 7358 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3000 7400 50  0001 C CNN
+F 3 "~" H 3000 7400 50  0001 C CNN
+	1    3000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CC75EE4
+P 3000 7500
+F 0 "#PWR0101" H 3000 7250 50  0001 C CNN
+F 1 "GND" H 3005 7327 50  0000 C CNN
+F 2 "" H 3000 7500 50  0001 C CNN
+F 3 "" H 3000 7500 50  0001 C CNN
+	1    3000 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 5CC76CE8
+P 3000 6900
+F 0 "H9" H 3100 6949 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3100 6858 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3000 6900 50  0001 C CNN
+F 3 "~" H 3000 6900 50  0001 C CNN
+	1    3000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CC76CF2
+P 3000 7000
+F 0 "#PWR0102" H 3000 6750 50  0001 C CNN
+F 1 "GND" H 3005 6827 50  0000 C CNN
+F 2 "" H 3000 7000 50  0001 C CNN
+F 3 "" H 3000 7000 50  0001 C CNN
+	1    3000 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
