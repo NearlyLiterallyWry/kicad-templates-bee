@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:bee_0.5w-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +22,7 @@ F 0 "J2" H 956 1478 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1387 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1300 50  0001 C CNN
 F 3 "~" H 850 1300 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1300 50  0001 C CNN "Reichelt Part No"
 	1    850  1300
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J1" H 956 1128 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1037 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 950 50  0001 C CNN
 F 3 "~" H 850 950 50  0001 C CNN
+F 4 "RND 205-00623" H 850 950 50  0001 C CNN "Reichelt Part No"
 	1    850  950 
 	1    0    0    -1  
 $EndComp
@@ -44,6 +46,7 @@ F 0 "J4" H 956 2328 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 2237 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
+F 4 "RND 205-00623" H 850 2150 50  0001 C CNN "Reichelt Part No"
 	1    850  2150
 	1    0    0    -1  
 $EndComp
@@ -121,6 +124,7 @@ F 0 "J3" H 956 1978 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1887 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1800 50  0001 C CNN
 F 3 "~" H 850 1800 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1800 50  0001 C CNN "Reichelt Part No"
 	1    850  1800
 	1    0    0    -1  
 $EndComp
