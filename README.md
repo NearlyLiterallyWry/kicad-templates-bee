@@ -7,4 +7,4 @@ For info on templates see the [official documentation](http://docs.kicad-pcb.org
 
 Installation
 ------------
-Clone this repository to a directory of your choice. Open KiCad and go to "Einstellungen"->"Pfade konfigurieren". Replace the path in KICAD_USER_TEMPLATE_DIR with the previously chosen directory.
+Clone this repository to a directory of your choice. Open KiCad and go to _Preferences_ > _Configure Paths_. Replace the path in KICAD_USER_TEMPLATE_DIR with the previously chosen directory.
